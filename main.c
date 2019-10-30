@@ -13,12 +13,25 @@
  {
    int (*fPt)(int,int);
    fPt=funcion01;
-   //... Inicilizar dos variables enteras
-   /*WRITE YOUR CODE HERE*/
+   x=2;
+   y=3;
    Funcion(fPt,x,y);
    return 0;
  }/*end main()*/
- 
-/*WRITE YOUR CODE HERE*/
+
+void Funcion(int (*fPt)(int,int), int x, int y)
+{
+   if(fPt==funcion01)
+   {
+	funcion01(x,y);
+   }
+}	
+
+int funcion01(int x, int y)
+{
+   int result;
+   result=x+y;
+   return result;
+} 
 
 
