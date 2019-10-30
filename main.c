@@ -14,7 +14,11 @@
    int (*fPt)(int,int);
    fPt=funcion01;
    //... Inicilizar dos variables enteras
+   /*WRITE YOUR CODE HERE*/
    Funcion(fPt,x,y);
    return 0;
  }/*end main()*/
  
+/*WRITE YOUR CODE HERE*/
+
+
