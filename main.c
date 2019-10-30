@@ -21,4 +21,11 @@
  
 /*WRITE YOUR CODE HERE*/
 
+int funcion01(int i,int j){
+return i*j;
+}
+
+void Funcion(int (*p)(int,int) ,int j,int k){
+printf("Funcion ejecutada");
+}
 
